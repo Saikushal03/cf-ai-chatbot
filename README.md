@@ -1,66 +1,53 @@
-# 🤖 cf-ai-chatbot-submission
+AI Chatbot for Cloudflare Internship
+This repository contains my project submission for the Cloudflare AI Software Engineering Intern role. It is a fully functional chatbot built with Cloudflare's developer platform to meet the requirements of the assignment.
 
-A comprehensive AI-powered chatbot built on Cloudflare's platform, featuring Llama 3.3 integration, advanced tool system, and persistent memory management. This is my submission for the Cloudflare AI Intern assignment.
+Live Demo
+Try the Live Chatbot Here: https://proud-pine-5833.saikushalthogaru.workers.dev/
 
+Deploy Your Own Version: Deploy with Cloudflare
 
-## 🚀 Live Demo
+How It's Built
+The project is built entirely on the Cloudflare stack, using a few key services to make it work:
 
-[Try the Live Chatbot](https://proud-pine-5833.saikushalthogaru.workers.dev/)
+Cloudflare Workers AI: The brain of the chatbot is the Llama 3.3 model, running serverlessly on Workers AI.
 
-[Deploy to Your Own Cloudflare Workers](https://deploy.workers.cloudflare.com/?url=https://github.com/Saikushal03/cf-ai-chatbot-submission)
+Cloudflare Durable Objects: To remember conversation history and manage tasks, the application uses Durable Objects for state management.
 
-## ✨ Features
+Cloudflare Pages: The user interface is a simple chat application built with React and hosted on Cloudflare Pages.
 
-- **🧠 AI-Powered**: Uses Llama 3.3 via Cloudflare Workers AI
-- **💬 Interactive Chat**: Real-time streaming responses with modern UI
-- **🛠️ Advanced Tools**: 20+ tools including scheduling, memory management, and external APIs
-- **🔄 State Management**: Persistent conversation history and user data
-- **⚡ Real-time**: Live chat with streaming responses
-- **🎨 Modern UI**: Beautiful gradient design with dark/light themes
-- **🔒 Secure**: Human-in-the-loop confirmation for sensitive operations
-- **📅 Scheduling**: One-time, delayed, and recurring task management
-- **🧠 Memory**: Persistent memory system for conversation context
+Main Features
+The chatbot can do more than just talk. It can use several tools to perform tasks, such as:
 
-## 🏗️ Architecture
+Get the current time or weather for any city.
 
-This project demonstrates a complete AI-powered application using Cloudflare's platform:
+Schedule reminders for you.
 
-- **LLM**: Llama 3.3 via Cloudflare Workers AI
-- **Workflow**: Durable Objects for state management and coordination
-- **User Interface**: React-based chat interface with real-time streaming
-- **Memory**: SQL-based persistent storage for conversation history and user data
-- **Tools**: Comprehensive tool system with 20+ capabilities
+Save notes and remember key information from the conversation.
 
-## 🛠️ Available Tools
+Analyze code snippets for quality and complexity.
 
-### Auto-Executing Tools
-- **Time & Date**: Get current time, local time for any location
-- **Math**: Safe mathematical calculations
-- **Scheduling**: One-time, delayed, and recurring task management
-- **Memory**: Save/recall conversation context and user data
-- **Code Analysis**: Analyze code quality and complexity
-- **Sentiment Analysis**: Analyze text sentiment
+Send emails or manage files (with user confirmation for safety).
 
-### Human-Confirmed Tools
-- **Email**: Send emails (requires confirmation)
-- **File Operations**: Read, write, delete files (requires confirmation)
-- **Weather**: Get weather information (requires confirmation)
+How to Run This Project
+To run this project locally, you'll need Git and Node.js installed on your machine, as well as a Cloudflare account.
 
-### External API Tools
-- **News**: Fetch latest news from external APIs
-- **Web Scraping**: Extract content from web pages
-- **Weather API**: Real-time weather data
+1. Clone the Repository
+First, clone the repository to your computer.
 
-## 📋 Prerequisites
-
-- Cloudflare account with Workers AI enabled
-- Node.js 18+ and npm
-- Git
-
-## 🚀 Quick Start
-
-### 1. Clone the Repository
-
-```bash
 git clone [https://github.com/Saikushal03/cf-ai-chatbot-submission.git](https://github.com/Saikushal03/cf-ai-chatbot-submission.git)
 cd cf-ai-chatbot-submission
+
+2. Install Dependencies
+Next, install the necessary packages using npm.
+
+npm install
+
+3. Run Locally
+To start the local development server, run the following command. The application will be available at http://localhost:8787.
+
+npm start
+
+4. Deploy to Cloudflare
+To deploy the project to your own Cloudflare account, just run:
+
+npm run deploy
