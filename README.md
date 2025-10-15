@@ -1,4 +1,4 @@
-# 🌩️ Cloudflare AI Chatbot – Internship Project Submission
+# 🌩️ Cloudflare AI Chatbot
 
 This repository contains my project submission for the **Cloudflare Software Engineering Intern (AI)** role for **Summer 2026**.  
 The project demonstrates a fully functional, **AI-powered chatbot** built entirely on the **Cloudflare Developer Platform**, featuring **Workers AI (Llama 3.3)**, **Durable Objects**, and a **tool-assisted architecture** for intelligent task execution.
