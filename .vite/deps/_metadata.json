@@ -1,0 +1,64 @@
+{
+  "hash": "a0e9bc5a",
+  "configHash": "f14eb6b4",
+  "lockfileHash": "af5b7514",
+  "browserHash": "cc08bfb4",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "d2999b83",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "b59b28e6",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "db4a18e1",
+      "needsInterop": true
+    },
+    "agents/react": {
+      "src": "../../node_modules/agents/dist/react.js",
+      "file": "agents_react.js",
+      "fileHash": "c91da366",
+      "needsInterop": false
+    },
+    "ai": {
+      "src": "../../node_modules/ai/dist/index.mjs",
+      "file": "ai.js",
+      "fileHash": "5c49f157",
+      "needsInterop": false
+    },
+    "agents/ai-react": {
+      "src": "../../node_modules/agents/dist/ai-react.js",
+      "file": "agents_ai-react.js",
+      "fileHash": "20046aa2",
+      "needsInterop": false
+    },
+    "@phosphor-icons/react": {
+      "src": "../../node_modules/@phosphor-icons/react/dist/index.es.js",
+      "file": "@phosphor-icons_react.js",
+      "fileHash": "48750815",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IXJVFBHV": {
+      "file": "chunk-IXJVFBHV.js"
+    },
+    "chunk-Q4TY2XMZ": {
+      "file": "chunk-Q4TY2XMZ.js"
+    },
+    "chunk-QLJLW6ED": {
+      "file": "chunk-QLJLW6ED.js"
+    },
+    "chunk-PR4QN5HX": {
+      "file": "chunk-PR4QN5HX.js"
+    }
+  }
+}
