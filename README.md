@@ -2,9 +2,12 @@
 
 A comprehensive AI-powered chatbot built on Cloudflare's platform, featuring Llama 3.3 integration, advanced tool system, and persistent memory management. This is my submission for the Cloudflare AI Intern assignment.
 
+
 ## 🚀 Live Demo
 
-[Try the Live Chatbot](https://your-worker-name.saikushal03.workers.dev/) [Deploy to Your Own Cloudflare Workers](https://deploy.workers.cloudflare.com/?url=https://github.com/Saikushal03/cf-ai-chatbot-submission)
+[Try the Live Chatbot](https://proud-pine-5833.saikushalthogaru.workers.dev/)
+
+[Deploy to Your Own Cloudflare Workers](https://deploy.workers.cloudflare.com/?url=https://github.com/Saikushal03/cf-ai-chatbot-submission)
 
 ## ✨ Features
 
